@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>HT slider (hamidteimouri.com)</title>
+  
+    <link rel="stylesheet" href="css/ht-slider.css">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.mobile.touch.events.min.js"></script>
+    <script src="js/jquery-htSlider.js"></script>
+    <style>
+        .sliderWrapper {
+            width: 680px;
+            height: 300px;
+            margin: 50px auto;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="sliderWrapper">
+        <div id="mainSlider" class="htSlider">
+            <!-- Slide Images -->
+            <ul>
+                <li >
+                    <a href="#"><img src="img/slide/1.jpg" alt=""></a>
+                </li>
+                <li title="کپشن 2">
+                    <a href="#"><img src="img/slide/2.jpg" alt=""></a>
+                </li>
+                <li title="کپشن 3">
+                    <a href="#"><img src="img/slide/3.jpg" alt=""></a>
+                </li>
+                <li title="کپشن 4">
+                    <a href="#"><img src="img/slide/4.jpg" alt=""></a>
+                </li>
+                <li title="کپشن 5">
+                    <a href="#"><img src="img/slide/5.jpg" alt=""></a>
+                </li>
+            </ul>
+
+            <!--<span class="play"></span>-->
+            <!--<span class="pause"></span>-->
+
+        </div>
+    </div>
+</div>
+<script>
+        $("#mainSlider").htSlider();
+</script>
+</body>
+</html>
